@@ -31,4 +31,13 @@ public class Repository {
     public void setUrl(String url) {
         this.url = url;
     }
+
+    @Override
+    public String toString() {
+        return "Repository{" +
+                "name='" + name + '\'' +
+                ", fullName='" + fullName + '\'' +
+                ", url='" + url + '\'' +
+                '}';
+    }
 }
